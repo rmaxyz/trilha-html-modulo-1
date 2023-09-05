@@ -2,61 +2,143 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Página - Módulo I - Primeiros Passos com HTML</title>
+    <title>Primeiros passos com HTML</title>
 </head>
 <body>
-    <h1>Módulo 1 - Primeiros Passos com HTML</h1>
+    
+    <h2>Primeiros passos com HTML</h2>
     <hr />
+    <h1>Entendendo comunicação Client x Server</h1>
+    <h3 id="volta">Índice</h3>
+    <ol>
+        <li>Primeiros passsos com HTML<ul>
+            <li><a href="#historia">História da web</a></li>
+            <li><a href="#clients">O que são Clients?</a></li>
+            <li><a href="#servers">O que são Servers?</a></li>
+            <li><a href="#sobre-lpw">Sobre linguagens de programação web</a></li>
+        </ul></li>
 
-    <h2>Índice</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Neste índice você deve colocar os tópicos que mais entendeu. Estes apenas são sugestões.</p>
+        <li>Aprendendo HTML na prática<ul>
+            <li><a href="#ferramentas">Ferramentas utilizadas</a></li>
+            <li><a href="#inspetor">Usando o Inspetor de Elementos</a></li>
+            <li><a href="#estrutura-html">Estrutura básica do HTML</a></li>
+            <li><a href="#tags">Falando sobre Tags</a></li>
+            <li><a href="#atributos">Atributos básicos</a></li>
+            <li><a href="#executando-html">Executando uma página HTML</a></li>
+            <li><a href="#text">Textos</a></li>
+            <li><a href="#list">Listas ordenadas e não ordenadas</a></li>
+            <li><a href="#links">Links</a></li>
+        </ul></li>
+    </ol>
+    
+
+    <h3 id="historia">História da web</h3>
+    <a href="#volta">volta</a>
+
+    <p>A história da World Wide Web, comumente chamada de Web, remonta ao final da década de 1980 e início da década de 1990. Foi criada por Tim Berners-Lee, um cientista da computação britânico, enquanto trabalhava no CERN (Organização Europeia para a Pesquisa Nuclear) na Suíça. A Web foi concebida como uma maneira de compartilhar informações entre cientistas em diferentes partes do mundo.</p>
+    <p>Em 1991, Berners-Lee desenvolveu o primeiro navegador web chamado "WorldWideWeb" e o primeiro servidor web, tornando possível a criação e visualização de páginas da web. Em 1993, foi lançado o primeiro navegador amplamente adotado, o Mosaic, que popularizou a Web. Posteriormente, surgiram outros navegadores como o Netscape Navigator e o Internet Explorer.</p>
+    <p>A Web evoluiu rapidamente, passando de simples documentos de texto para incluir gráficos, multimídia, interatividade e aplicativos web complexos. Hoje, a Web desempenha um papel central na vida cotidiana das pessoas, na disseminação de informações e no comércio eletrônico.</p>
+
+    <h3 id="clients">O que são Clients?</h3>
+    <a href="#volta">volta</a>
+    <p>Clientes, na contextura da Web, são os programas ou dispositivos que acessam e exibem conteúdo da internet. Eles desempenham o papel de solicitar informações de servidores web e interpretar as respostas para exibi-las aos usuários. Os clientes mais comuns são os navegadores web, como o Google Chrome, Mozilla Firefox, Microsoft Edge e outros, que permitem que os usuários acessem e interajam com sites da Web.</p>
+    <p>Além dos navegadores, outros tipos de clientes incluem aplicativos de e-mail, leitores de feeds RSS, aplicativos de redes sociais e muitos outros que se conectam a servidores web para obter dados ou serviços.</p>
+
+    <h3 id="servers">O que são Servers?</h3>
+    <a href="#volta">volta</a>
+    <p>Servidores são computadores ou sistemas de software que fornecem serviços ou conteúdo para clientes na Web. Eles desempenham o papel de receber solicitações de clientes, processá-las e enviar as respostas apropriadas de volta aos clientes. Os servidores web são uma categoria comum de servidores na Web e são responsáveis por hospedar sites e aplicativos web.</p>
+    <p>Um servidor web típico executa software especializado, como o Apache, Nginx ou Microsoft IIS, que lida com solicitações HTTP (Hypertext Transfer Protocol) enviadas pelos clientes. Essas solicitações podem ser para páginas da web, recursos estáticos (como imagens, CSS e JavaScript) ou serviços web dinâmicos que geram conteúdo personalizado com base nos pedidos dos clientes.</p>
+
+    <h3 id="sobre-lpw">Sobre Linguagens de Programação Web</h3>
+    <a href="#volta">volta</a>
+    <p>Linguagens de programação web são usadas para desenvolver aplicativos e sites da Web. Elas permitem que os desenvolvedores criem interfaces de usuário, lógica de negócios e interações interativas na Web. Alguns exemplos de linguagens de programação web amplamente usadas incluem:</p>
+    <ol>
+        <li><strong>HTML (Hypertext Markup Language):</strong>HTML é a linguagem básica para criar a estrutura de uma página da Web. Ela define elementos como cabeçalhos, parágrafos, links e formulários.</li>
+        <li><strong>CSS (Cascading Style Sheets):</strong> CSS é usado para estilizar e formatar páginas da Web. Ele permite que os desenvolvedores controlem a aparência visual de elementos HTML.</li>
+        <li><strong>JavaScript:</strong> JavaScript é uma linguagem de programação de alto nível que é executada no navegador do cliente. Ela é usada para adicionar interatividade a sites, criar aplicativos da Web e realizar tarefas de processamento no lado do cliente.</li>
+        <li><strong>PHP, Python, Ruby e outras linguagens de servidor:</strong>Essas linguagens são usadas no lado do servidor para processar solicitações dos clientes, acessar bancos de dados, realizar cálculos e gerar dinamicamente páginas da Web.</li>
+        <li><strong>SQL (Structured Query Language):</strong> SQL é usado para gerenciar bancos de dados e realizar operações de consulta e manipulação de dados em aplicativos web que dependem de armazenamento de informações.</li>
+        <li><strong>Frameworks web:</strong> Além das linguagens individuais, existem frameworks web como Ruby on Rails, Django (Python), Express.js (JavaScript), que oferecem ferramentas e estruturas para acelerar o desenvolvimento web, fornecendo soluções prontas para tarefas comuns.</li>
+    </ol>
+    <p>Essas linguagens e tecnologias são usadas em combinação para criar sites e aplicativos da Web modernos e funcionais que atendem às necessidades dos usuários e das empresas online. A escolha da linguagem de programação depende dos requisitos específicos de cada projeto e das preferências dos desenvolvedores.</p>
+
+    <h2>Aprendendo HTML na prática</h2>
+
+    <h3 id="ferramentas">Ferramentas Utilizadas</h3>
+    <a href="#volta">volta</a>
+    <p>No desenvolvimento web, uma série de ferramentas são utilizadas para criar, testar e depurar páginas e aplicativos da web. Algumas das ferramentas mais comuns incluem:</p>
     <ul>
-        <li><a href="#">História dos computadores</a></li>
-        <li><a href="#">O que são <i>Clients</i>?</a></li>
-        <li><a href="#">O que são <i>Servers</i>?</a></li>
-        <li><a href="#">Como é uma estrutura básica de um HTML?</a></li>
-        <li><a href="#">Entendendo a diferença entre listas ordenadas e não ordenadas</a></li>
-        <li><a href="#">Links de referências</a></li>
+        <li>Navegadores Web: Como o Google Chrome, Mozilla Firefox e Microsoft Edge, que são usados para visualizar e testar páginas da web.</li>
+        <li>Ambientes de Desenvolvimento Integrado (IDEs): Ferramentas como Visual Studio Code, Sublime Text, e JetBrains WebStorm oferecem funcionalidades avançadas de edição de código, depuração e integração com frameworks web.
+        </li>
+        <li> Editores de Código: Editores simples como Notepad (Windows) ou Visual Studio Code são amplamente utilizados para escrever código HTML, CSS e JavaScript.</li>
+        <li>Ferramentas de Inspeção de Página: Os navegadores possuem recursos de inspeção de página, como o Inspetor de Elementos, que permitem examinar o código e os estilos de uma página, bem como depurar problemas.</li>
     </ul>
 
-    <h2>História dos computadores</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Neste trecho, coloque com suas palavras o que entendeu sobre o assunto. 
-       Não esqueça de colocar links para outros sites e também de formatar o texto com 
-       <strong>negrito</strong>, <i>itálico</i> e <u>sublinhado</u> quando necessário.</p>
-    <p>Não esqueça também de colocar o link para voltar até o índice. (Lembra das âncoras?)</p>
+    <h3 id="inspetor">Usando o Inspetor de Elementos</h3>
+    <a href="#volta">volta</a>
+    <p>O Inspetor de Elementos é uma ferramenta embutida nos navegadores que permite examinar e modificar a estrutura e o estilo de uma página da web. Você pode abrir o Inspetor de Elementos clicando com o botão direito do mouse em qualquer elemento de uma página e selecionando a opção "Inspecionar" ou pressionando a tecla F12 ou Ctrl+Shift+I, dependendo do navegador.</p>
+    <p>No Inspetor de Elementos, você pode visualizar o código HTML, as folhas de estilo CSS e depurar JavaScript. Ele é especialmente útil para identificar problemas de layout, depurar erros de código e entender como uma página é construída.</p>
 
-    <h2>O que são <i>Clients</i>?</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Neste trecho, coloque com suas palavras o que entendeu sobre o assunto. 
-       Não esqueça de colocar links para outros sites e também de formatar o texto com 
-       <strong>negrito</strong>, <i>itálico</i> e <u>sublinhado</u> quando necessário.</p>
-    <p>Não esqueça também de colocar o link para voltar até o índice. (Lembra das âncoras?)</p>
-
-    <h2>O que são <i>Servers</i>?</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Neste trecho, coloque com suas palavras o que entendeu sobre o assunto. 
-       Não esqueça de colocar links para outros sites e também de formatar o texto com 
-       <strong>negrito</strong>, <i>itálico</i> e <u>sublinhado</u> quando necessário.</p>
-    <p>Não esqueça também de colocar o link para voltar até o índice. (Lembra das âncoras?)</p>
-
-    <h2>Como é uma estrutura básica de um HTML?</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Neste trecho, coloque com suas palavras o que entendeu sobre o assunto. 
-       Não esqueça de colocar links para outros sites e também de formatar o texto com 
-       <strong>negrito</strong>, <i>itálico</i> e <u>sublinhado</u> quando necessário.</p>
-    <p>Não esqueça também de colocar o link para voltar até o índice. (Lembra das âncoras?)</p>
-
-    <h2>Entendendo a diferença entre listas ordenadas e não ordenadas</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Neste trecho, coloque com suas palavras o que entendeu sobre o assunto. 
-       Não esqueça de colocar links para outros sites e também de formatar o texto com 
-       <strong>negrito</strong>, <i>itálico</i> e <u>sublinhado</u> quando necessário.</p>
-    <p>Não esqueça também de colocar o link para voltar até o índice. (Lembra das âncoras?)</p>
-
-    <h2>Links de referências</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Coloque links para outras páginas que falam sobre estes assuntos. Não esquece de que precisa abrir em outra aba/janela do navegador.</p>
+    <h3 id="estrutura-html">Estrutura Básica do HTML</h3>
+    <a href="#volta">volta</a>
+    <p>O HTML (Hypertext Markup Language) é a linguagem de marcação usada para criar a estrutura de uma página da web. Uma página HTML básica segue uma estrutura simples:</p>
     <ul>
-        <li><a href="#">http://dio.me</a></li>
-        <li><a href="#">http://w3c.org</a></li>
+        <li>&lt;!DOCTYPE html&gt;: Declara o tipo de documento como HTML5.</li>
+        <li>&lt;html&gt;>: O elemento raiz que engloba todo o conteúdo da página.</li>
+        <li>&lt;head&gt;: Contém informações sobre a página, como o título exibido na barra de título do navegador.</li>
+        <li>&lt;title&gt;: Define o título da página.</li>
+        <li>&lt;body&gt;: Contém o conteúdo visível da página, como texto, imagens e links.</li>
     </ul>
 
+    <h3 id="tags">Falando sobre Tags</h3>
+    <a href="#volta">volta</a>
+    <p>As tags HTML são elementos que definem a estrutura e o conteúdo de uma página. As tags são escritas entre colchetes angulares < >. Existem tags de abertura e tags de fechamento, que envolvem o conteúdo.</p>
+    <h4>Por exemplo:</h4>
+    <ul>
+        <li>&lt;p&gt;: Define um parágrafo.</li>
+        <li>&lt;h1&gt; a &lt;h6&gt;: Define cabeçalhos de diferentes níveis.</li>
+        <li>&lt;a&gt;: Define um link.</li>
+    </ul>
+
+    <h3 id="atributos">Atributos Básicos</h3>
+    <a href="#volta">volta</a>
+    <p>As tags podem ter atributos que fornecem informações adicionais sobre a tag. Os atributos são especificados na tag de abertura e têm um nome e um valor. Por exemplo:
+    </p>
+    <p> &lt;a href="https://www.exemplo.com"&gt;Visitar Exemplo&lt;/a&gt;</p>
+    <p>No exemplo acima, href é o atributo que define o URL de destino do link.</p>
+
+    <h3 id="executando-html">Executando uma Página HTML</h3>
+    <a href="#volta">volta</a>
+    <p>Uma página HTML é executada em um navegador da web. Você pode criar um arquivo HTML em um editor de código e salvá-lo com a extensão ".html". Em seguida, basta abrir esse arquivo em um navegador para visualizar a página.</p>
+
+    <h3 id="test">Textos</h3>
+    <a href="#volta">volta</a>
+    <p>Para adicionar texto a uma página HTML, você pode usar a tag &lt;p&gt; para parágrafos, &lt;h1&gt; a &lt;h6&gt; para cabeçalhos e tags de texto inline como &lt;span&gt; e &lt;em&gt;.</p>
+
+    <h3 id="list">Listas Ordenadas e Não Ordenadas</h3>
+    <a href="#volta">volta</a>
+    <p>Você pode criar listas ordenadas usando &lt;ol&gt; e &lt;li&gt; para itens da lista numerados e listas não ordenadas usando &lt;ul&gt; e &lt;li&gt;para itens da lista com marcadores.</p>
+
+    <h4>Exemplo de lista ordenada:</h4>
+    <p> &lt;ol&gt;</p>
+    <p>&lt;li&gt;Item 1&lt;/li&gt;</p>
+    <p>&lt;li&gt;Item 2&lt;/li&gt;</p>
+    <p>&lt;li&gt;Item 3&lt;/li&gt;</p>
+    <p>&lt;/ol&gt;</p>
+
+    <h4>Exemplo de lista não ordenada:</h4>
+    <p>&lt;ul&gt;</p>
+    <p>&lt;li&gt;Item A&lt;/li&gt;</p>
+    <p>&lt;li&gt;Item B&lt;/li&gt;</p>
+    <p>&lt;li&gt;Item C&lt;/li&gt;</p>
+    <p>&lt;/ul&gt;</p>
+
+    <h3 id="links">Links</h3>
+    <a href="#volta">volta</a>
+    <p>Os links são criados usando a tag &lt;a&gt; O atributo href especifica o URL de destino do link. Por exemplo:</p>
+    <p>&lt;a href="https://github.com/digitalinnovationone/roadmaps"&gt;Visite a roadmaps&lt;/a&gt;</p>
+    <p>Esses são conceitos e elementos básicos do desenvolvimento web com HTML. À medida que você se aprofunda no desenvolvimento web, você aprenderá mais sobre estilos CSS, interatividade JavaScript e outras tecnologias web avançadas.</p>
 </body>
 </html>
